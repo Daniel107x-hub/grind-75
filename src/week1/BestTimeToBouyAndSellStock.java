@@ -1,6 +1,6 @@
-package week1.TwoSum;
+package week1;
 
-public class bestTimeToBouyAndSellStock {
+public class BestTimeToBouyAndSellStock {
     public static void main(String[] args) {
 
     }

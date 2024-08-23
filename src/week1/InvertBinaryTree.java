@@ -1,4 +1,4 @@
-package week1.TwoSum;
+package week1;
 
 public class InvertBinaryTree {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package week1.TwoSum;
+package week1;
 
 public class ValidPalindrome {
     public static void main(String[] args) {

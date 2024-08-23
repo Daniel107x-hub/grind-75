@@ -1,9 +1,9 @@
-package week1.TwoSum;
+package week1;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class twoSum {
+public class TwoSum {
     public static void main(String[] args){
         int[] nums = new int[]{3, 2, 4};
         int[] result = withMap(nums, 6);

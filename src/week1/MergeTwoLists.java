@@ -1,6 +1,6 @@
-package week1.TwoSum;
+package week1;
 
-public class mergeTwoLists {
+public class MergeTwoLists {
     public static void main(String[] args) {
 
     }
