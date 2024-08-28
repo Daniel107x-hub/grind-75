@@ -1,5 +1,7 @@
 package week1;
 
+import utils.TreeNode;
+
 public class LowestCommonAncestor {
     public static void main(String[] args) {
         TreeNode q = new TreeNode(4, new TreeNode(3), new TreeNode(5));
@@ -15,18 +17,6 @@ public class LowestCommonAncestor {
             if(min.val <= root.val && max.val >= root.val) return root;
             if(min.val > root.val) root = root.right;
             else root = root.left;
-        }
-    }
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-        TreeNode(int x, TreeNode left, TreeNode right){
-            val = x;
-            this.left = left;
-            this.right = right;
         }
     }
 }
